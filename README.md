@@ -1,4 +1,5 @@
 # Zitadel Docker Compose
+- [Docs](https://docs.zitadel.com/)
 
 ## Required
 - Docker
