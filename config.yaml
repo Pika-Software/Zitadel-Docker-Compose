@@ -1,0 +1,22 @@
+ExternalDomain: 'your.domain'
+ExternalSecure: true
+ExternalPort: 443
+
+DefaultInstance:
+  OIDCSettings:
+    AccessTokenLifetime: 12h
+    IdTokenLifetime: 12h
+    RefreshTokenIdleExpiration: 720h #30d
+    RefreshTokenExpiration: 2160h #90d
+  SMTPConfiguration:
+    SMTP:
+      Host: host:port
+      User: user
+      Password: pass
+    TLS: true
+    From: user@domain
+    FromName: My App
+  DomainPolicy:
+    UserLoginMustBeDomain: false
+    ValidateOrgDomains: true
+    SMTPSenderAddressMatchesInstanceDomain: false

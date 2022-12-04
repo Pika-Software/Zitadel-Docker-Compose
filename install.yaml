@@ -1,0 +1,8 @@
+FirstInstance:
+  InstanceName: My App
+  Org:
+    Name: My Organization
+    Human:
+      UserName: root
+      FirstName: Mister
+      LastName: Admin
